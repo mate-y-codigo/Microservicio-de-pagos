@@ -1,0 +1,15 @@
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\bin\Debug\net8.0\PaymentApi.Application.deps.json
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\bin\Debug\net8.0\PaymentApi.Application.dll
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\bin\Debug\net8.0\PaymentApi.Application.pdb
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\bin\Debug\net8.0\PaymentApi.Domain.dll
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\bin\Debug\net8.0\PaymentApi.Domain.pdb
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\obj\Debug\net8.0\PaymentApi.Application.csproj.AssemblyReference.cache
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\obj\Debug\net8.0\PaymentApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\obj\Debug\net8.0\PaymentApi.Application.AssemblyInfoInputs.cache
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\obj\Debug\net8.0\PaymentApi.Application.AssemblyInfo.cs
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\obj\Debug\net8.0\PaymentApi.Application.csproj.CoreCompileInputs.cache
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\obj\Debug\net8.0\PaymentA.9D855FD3.Up2Date
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\obj\Debug\net8.0\PaymentApi.Application.dll
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\obj\Debug\net8.0\refint\PaymentApi.Application.dll
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\obj\Debug\net8.0\PaymentApi.Application.pdb
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\obj\Debug\net8.0\ref\PaymentApi.Application.dll

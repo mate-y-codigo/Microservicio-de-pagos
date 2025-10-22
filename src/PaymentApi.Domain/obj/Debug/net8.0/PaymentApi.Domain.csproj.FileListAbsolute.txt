@@ -1,0 +1,11 @@
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Domain\bin\Debug\net8.0\PaymentApi.Domain.deps.json
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Domain\bin\Debug\net8.0\PaymentApi.Domain.dll
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Domain\bin\Debug\net8.0\PaymentApi.Domain.pdb
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Domain\obj\Debug\net8.0\PaymentApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Domain\obj\Debug\net8.0\PaymentApi.Domain.AssemblyInfoInputs.cache
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Domain\obj\Debug\net8.0\PaymentApi.Domain.AssemblyInfo.cs
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Domain\obj\Debug\net8.0\PaymentApi.Domain.csproj.CoreCompileInputs.cache
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Domain\obj\Debug\net8.0\PaymentApi.Domain.dll
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Domain\obj\Debug\net8.0\refint\PaymentApi.Domain.dll
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Domain\obj\Debug\net8.0\PaymentApi.Domain.pdb
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Domain\obj\Debug\net8.0\ref\PaymentApi.Domain.dll
