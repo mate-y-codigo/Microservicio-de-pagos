@@ -17,3 +17,4 @@ D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\Paymen
 D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Infrastructure\obj\Debug\net8.0\PaymentApi.Infrastructure.pdb
 D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Infrastructure\obj\Debug\net8.0\PaymentApi.Infrastructure.genruntimeconfig.cache
 D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Infrastructure\obj\Debug\net8.0\ref\PaymentApi.Infrastructure.dll
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Infrastructure\obj\Debug\net8.0\PaymentApi.Infrastructure.sourcelink.json

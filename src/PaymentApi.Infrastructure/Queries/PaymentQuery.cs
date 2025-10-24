@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using PaymentApi.Application.DTOs.Request;
 using PaymentApi.Application.Interfaces;
+using PaymentApi.Application.QueryFilters.PaymentFilters;
 using PaymentApi.Domain.Entities;
 using PaymentApi.Infrastructure.Data;
 using System;
@@ -17,16 +19,29 @@ namespace PaymentApi.Infrastructure.Queries
         {
             _context = context;
         }
+
         public async Task<Payment> GetPayment(Guid id)
         {
             var payment = await _context.Payments.FirstOrDefaultAsync(p => p.Id == id);
             return payment;
         }
-
-        public async Task<List<Payment>> GetPaymentsByStudent(Guid id)
+        public async Task<List<Payment>> FilterPayments(PaymentFilterRequest request)
         {
-            var payments = await _context.Payments.Where(p => p.Alumno_Id == id).ToListAsync();
-            return payments;
+            var filters = new List<IQueryFilter<Payment, PaymentFilterRequest>>
+                {
+                    new PaymentStudentFilter(),
+                    new PaymentTrainerFilter(),
+                    new PaymentStatusFilter(),
+                    new PaymentMethodFilter(),
+                    new PaymentFromDateFilter(),
+                    new PaymentToDateFilter() 
+                };
+            var query = _context.Payments.AsQueryable();
+            foreach (var filter in filters)
+            {
+                query = filter.Aplly(query, request);
+            }
+            return await query.ToListAsync();
         }
     }
 }

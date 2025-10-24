@@ -9,3 +9,4 @@ D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\Paymen
 D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Domain\obj\Debug\net8.0\refint\PaymentApi.Domain.dll
 D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Domain\obj\Debug\net8.0\PaymentApi.Domain.pdb
 D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Domain\obj\Debug\net8.0\ref\PaymentApi.Domain.dll
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Domain\obj\Debug\net8.0\PaymentApi.Domain.sourcelink.json

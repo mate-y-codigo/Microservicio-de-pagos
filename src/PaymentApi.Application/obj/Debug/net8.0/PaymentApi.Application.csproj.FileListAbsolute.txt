@@ -13,3 +13,4 @@ D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\Paymen
 D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\obj\Debug\net8.0\refint\PaymentApi.Application.dll
 D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\obj\Debug\net8.0\PaymentApi.Application.pdb
 D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\obj\Debug\net8.0\ref\PaymentApi.Application.dll
+D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Application\obj\Debug\net8.0\PaymentApi.Application.sourcelink.json

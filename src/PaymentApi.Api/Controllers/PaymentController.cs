@@ -21,12 +21,19 @@ namespace PaymentApi.Api.Controllers
             return Ok(response);
         }
         [HttpGet]
-        [Route("student/{id}")]
-        public async Task<IActionResult> GetPaymentsByStudent([FromRoute] Guid id, string state = null)
+        [Route("{id}")]
+        public async Task<IActionResult> GetPayment([FromRoute] Guid id)
         {
-            var response = await _paymentServices.GetPaymentsByStudent(id,state);
+            var response = await _paymentServices.GetPayment(id);
             return Ok(response);
         }
+        [HttpGet]
+        public async Task<IActionResult> FilterPayments([FromQuery] PaymentFilterRequest request)
+        {
+            var response = await _paymentServices.GetFilterPayments(request);
+            return Ok(response);
+        }
+
         [HttpPost]
         [Route("confirm/{id}")]
         public async Task<IActionResult> ConfirmPayment([FromRoute] Guid id, [FromQuery] int days)

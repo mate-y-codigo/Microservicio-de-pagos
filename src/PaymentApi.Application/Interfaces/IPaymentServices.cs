@@ -11,7 +11,8 @@ namespace PaymentApi.Application.Interfaces
     public interface IPaymentServices
     {
         Task<PaymentResponse> CreatePayment(PaymentRequest request);
-        Task<List<PaymentResponse>> GetPaymentsByStudent(Guid id, string state);
         Task<PaymentSuccessResponse> ConfirmPayment(Guid id, int days);
+        Task<List<PaymentResponse>> GetFilterPayments(PaymentFilterRequest request);
+        Task<PaymentResponse> GetPayment(Guid id);
     }
 }

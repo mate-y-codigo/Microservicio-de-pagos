@@ -49,15 +49,24 @@ namespace PaymentApi.Application.Services
             };
         }
 
-        public async Task<List<PaymentResponse>> GetPaymentsByStudent(Guid id, string state)
+        public async Task<PaymentSuccessResponse> ConfirmPayment(Guid id, int days)
         {
-            var payments = await _paymentQuery.GetPaymentsByStudent(id);
-
-            if (!string.IsNullOrEmpty(state))
+            var payment = _paymentQuery.GetPayment(id);
+            await _paymentCommand.ConfirmPayment(await payment, days);
+            var paymentConfirmed = await _paymentQuery.GetPayment(id);
+            return new PaymentSuccessResponse
             {
-                payments = payments.Where(p => p.Estado.Equals(state, StringComparison.OrdinalIgnoreCase)).ToList();
-            }
+                Id = paymentConfirmed.Id,
+                Estado = paymentConfirmed.Estado,
+                Pagado_El = paymentConfirmed.Pagado_El,
+                Cobertura_Inicio = paymentConfirmed.Cobertura_Inicio,
+                Cobertura_Fin = paymentConfirmed.Cobertura_Fin
+            };
+        }
 
+        public async Task<List<PaymentResponse>> GetFilterPayments(PaymentFilterRequest request)
+        {
+            var payments = await _paymentQuery.FilterPayments(request);
             return payments.Select(p => new PaymentResponse
             {
                 Id = p.Id,
@@ -71,18 +80,21 @@ namespace PaymentApi.Application.Services
                 Creado_En = p.Creado_En
             }).ToList();
         }
-        public async Task<PaymentSuccessResponse> ConfirmPayment(Guid id, int days)
+
+        public async Task<PaymentResponse> GetPayment(Guid id)
         {
-            var payment = _paymentQuery.GetPayment(id);
-            await _paymentCommand.ConfirmPayment(await payment, days);
-            var paymentConfirmed = await _paymentQuery.GetPayment(id);
-            return new PaymentSuccessResponse
+            var payment = await _paymentQuery.GetPayment(id);
+            return new PaymentResponse
             {
-                Id = paymentConfirmed.Id,
-                Estado = paymentConfirmed.Estado,
-                Pagado_El = paymentConfirmed.Pagado_El,
-                Cobertura_Inicio = paymentConfirmed.Cobertura_Inicio,
-                Cobertura_Fin = paymentConfirmed.Cobertura_Fin
+                Id = payment.Id,
+                Alumno_Id = payment.Alumno_Id,
+                Entrenador_Id = payment.Entrenador_Id,
+                Monto = payment.Monto,
+                Moneda = payment.Moneda,
+                Metodo = payment.Metodo,
+                Estado = payment.Estado,
+                Notas = payment.Notas,
+                Creado_En = payment.Creado_En
             };
         }
     }

@@ -1,4 +1,5 @@
-﻿using PaymentApi.Domain.Entities;
+﻿using PaymentApi.Application.DTOs.Request;
+using PaymentApi.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace PaymentApi.Application.Interfaces
 {
     public interface IPaymentQuery
     {
-        Task<List<Payment>> GetPaymentsByStudent(Guid id);
         Task<Payment> GetPayment(Guid id);
+        Task<List<Payment>> FilterPayments(PaymentFilterRequest request);
     }
 }
