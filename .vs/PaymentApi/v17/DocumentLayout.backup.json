@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06E2C7DB-4142-4647-A777-5A259A535E85}|src\\PaymentApi.Application\\PaymentApi.Application.csproj|d:\\universidad\\2025\\proyecto software\\payment api\\template\\paymentapi\\src\\paymentapi.application\\interfaces\\ipaymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06E2C7DB-4142-4647-A777-5A259A535E85}|src\\PaymentApi.Application\\PaymentApi.Application.csproj|solutionrelative:src\\paymentapi.application\\interfaces\\ipaymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55CA8C8B-8FCB-4B8E-AC2E-1E8BAD597E79}|src\\PaymentApi.Infrastructure\\PaymentApi.Infrastructure.csproj|d:\\universidad\\2025\\proyecto software\\payment api\\template\\paymentapi\\src\\paymentapi.infrastructure\\commands\\paymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55CA8C8B-8FCB-4B8E-AC2E-1E8BAD597E79}|src\\PaymentApi.Infrastructure\\PaymentApi.Infrastructure.csproj|solutionrelative:src\\paymentapi.infrastructure\\commands\\paymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06E2C7DB-4142-4647-A777-5A259A535E85}|src\\PaymentApi.Application\\PaymentApi.Application.csproj|d:\\universidad\\2025\\proyecto software\\payment api\\template\\paymentapi\\src\\paymentapi.application\\services\\paymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06E2C7DB-4142-4647-A777-5A259A535E85}|src\\PaymentApi.Application\\PaymentApi.Application.csproj|solutionrelative:src\\paymentapi.application\\services\\paymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35A5CAF9-5B0C-4CF2-BB33-BF06F044388C}|src\\PaymentApi.Api\\PaymentApi.Api.csproj|d:\\universidad\\2025\\proyecto software\\payment api\\template\\paymentapi\\src\\paymentapi.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35A5CAF9-5B0C-4CF2-BB33-BF06F044388C}|src\\PaymentApi.Api\\PaymentApi.Api.csproj|solutionrelative:src\\paymentapi.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E2C7DB-4142-4647-A777-5A259A535E85}|src\\PaymentApi.Application\\PaymentApi.Application.csproj|d:\\universidad\\2025\\proyecto software\\payment api\\template\\paymentapi\\src\\paymentapi.application\\interfaces\\ipaymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E2C7DB-4142-4647-A777-5A259A535E85}|src\\PaymentApi.Application\\PaymentApi.Application.csproj|solutionrelative:src\\paymentapi.application\\interfaces\\ipaymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06E2C7DB-4142-4647-A777-5A259A535E85}|src\\PaymentApi.Application\\PaymentApi.Application.csproj|d:\\universidad\\2025\\proyecto software\\payment api\\template\\paymentapi\\src\\paymentapi.application\\interfaces\\ipaymentquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{55CA8C8B-8FCB-4B8E-AC2E-1E8BAD597E79}|src\\PaymentApi.Infrastructure\\PaymentApi.Infrastructure.csproj|d:\\universidad\\2025\\proyecto software\\payment api\\template\\paymentapi\\src\\paymentapi.infrastructure\\queries\\paymentquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55CA8C8B-8FCB-4B8E-AC2E-1E8BAD597E79}|src\\PaymentApi.Infrastructure\\PaymentApi.Infrastructure.csproj|solutionrelative:src\\paymentapi.infrastructure\\queries\\paymentquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35A5CAF9-5B0C-4CF2-BB33-BF06F044388C}|src\\PaymentApi.Api\\PaymentApi.Api.csproj|d:\\universidad\\2025\\proyecto software\\payment api\\template\\paymentapi\\src\\paymentapi.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35A5CAF9-5B0C-4CF2-BB33-BF06F044388C}|src\\PaymentApi.Api\\PaymentApi.Api.csproj|solutionrelative:src\\paymentapi.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06E2C7DB-4142-4647-A777-5A259A535E85}|src\\PaymentApi.Application\\PaymentApi.Application.csproj|d:\\universidad\\2025\\proyecto software\\payment api\\template\\paymentapi\\src\\paymentapi.application\\dtos\\response\\paymentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{06E2C7DB-4142-4647-A777-5A259A535E85}|src\\PaymentApi.Application\\PaymentApi.Application.csproj|solutionrelative:src\\paymentapi.application\\queryfilters\\paymentfilters\\paymentstudentfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55CA8C8B-8FCB-4B8E-AC2E-1E8BAD597E79}|src\\PaymentApi.Infrastructure\\PaymentApi.Infrastructure.csproj|d:\\universidad\\2025\\proyecto software\\payment api\\template\\paymentapi\\src\\paymentapi.infrastructure\\commands\\paymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55CA8C8B-8FCB-4B8E-AC2E-1E8BAD597E79}|src\\PaymentApi.Infrastructure\\PaymentApi.Infrastructure.csproj|solutionrelative:src\\paymentapi.infrastructure\\commands\\paymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{06E2C7DB-4142-4647-A777-5A259A535E85}|src\\PaymentApi.Application\\PaymentApi.Application.csproj|d:\\universidad\\2025\\proyecto software\\payment api\\template\\paymentapi\\src\\paymentapi.application\\interfaces\\ipaymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06E2C7DB-4142-4647-A777-5A259A535E85}|src\\PaymentApi.Application\\PaymentApi.Application.csproj|solutionrelative:src\\paymentapi.application\\interfaces\\ipaymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -82,37 +82,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PaymentToDateFilter.cs",
-              "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentToDateFilter.cs",
-              "RelativeDocumentMoniker": "src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentToDateFilter.cs",
-              "ToolTip": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentToDateFilter.cs",
-              "RelativeToolTip": "src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentToDateFilter.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T18:55:59.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PaymentFromDateFilter.cs",
-              "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentFromDateFilter.cs",
-              "RelativeDocumentMoniker": "src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentFromDateFilter.cs",
-              "ToolTip": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentFromDateFilter.cs",
-              "RelativeToolTip": "src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentFromDateFilter.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBEAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T18:55:49.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PaymentQuery.cs",
               "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Infrastructure\\Queries\\PaymentQuery.cs",
               "RelativeDocumentMoniker": "src\\PaymentApi.Infrastructure\\Queries\\PaymentQuery.cs",
@@ -120,12 +94,11 @@
               "RelativeToolTip": "src\\PaymentApi.Infrastructure\\Queries\\PaymentQuery.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAmwA4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T19:24:34.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T19:24:34.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PaymentFilterRequest.cs",
               "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\DTOs\\Request\\PaymentFilterRequest.cs",
               "RelativeDocumentMoniker": "src\\PaymentApi.Application\\DTOs\\Request\\PaymentFilterRequest.cs",
@@ -133,25 +106,24 @@
               "RelativeToolTip": "src\\PaymentApi.Application\\DTOs\\Request\\PaymentFilterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T18:22:28.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T18:22:28.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "IPaymentServices.cs",
               "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\Interfaces\\IPaymentServices.cs",
               "RelativeDocumentMoniker": "src\\PaymentApi.Application\\Interfaces\\IPaymentServices.cs",
               "ToolTip": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\Interfaces\\IPaymentServices.cs",
               "RelativeToolTip": "src\\PaymentApi.Application\\Interfaces\\IPaymentServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAwAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T19:33:42.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PaymentResponse.cs",
               "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\DTOs\\Response\\PaymentResponse.cs",
               "RelativeDocumentMoniker": "src\\PaymentApi.Application\\DTOs\\Response\\PaymentResponse.cs",
@@ -159,20 +131,19 @@
               "RelativeToolTip": "src\\PaymentApi.Application\\DTOs\\Response\\PaymentResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T20:24:32.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T20:24:32.706Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IPaymentQuery.cs",
-              "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\Interfaces\\IPaymentQuery.cs",
-              "RelativeDocumentMoniker": "src\\PaymentApi.Application\\Interfaces\\IPaymentQuery.cs",
-              "ToolTip": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\Interfaces\\IPaymentQuery.cs",
-              "RelativeToolTip": "src\\PaymentApi.Application\\Interfaces\\IPaymentQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAFAAAAAAAAAA==",
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Api\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "src\\PaymentApi.Api\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Api\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "src\\PaymentApi.Api\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwCoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T19:33:32.831Z",
+              "WhenOpened": "2025-10-22T19:23:34.059Z",
               "EditorCaption": ""
             },
             {
@@ -183,27 +154,63 @@
               "RelativeDocumentMoniker": "src\\PaymentApi.Application\\Services\\PaymentServices.cs",
               "ToolTip": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\Services\\PaymentServices.cs",
               "RelativeToolTip": "src\\PaymentApi.Application\\Services\\PaymentServices.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowDYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T19:21:39.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Api\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "src\\PaymentApi.Api\\Controllers\\PaymentController.cs",
-              "ToolTip": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Api\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "src\\PaymentApi.Api\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAowBwAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PaymentCommand.cs",
+              "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Infrastructure\\Commands\\PaymentCommand.cs",
+              "RelativeDocumentMoniker": "src\\PaymentApi.Infrastructure\\Commands\\PaymentCommand.cs",
+              "ToolTip": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Infrastructure\\Commands\\PaymentCommand.cs",
+              "RelativeToolTip": "src\\PaymentApi.Infrastructure\\Commands\\PaymentCommand.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwBcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T19:23:34.059Z",
+              "WhenOpened": "2025-10-22T19:33:52.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
+              "Title": "PaymentFromDateFilter.cs",
+              "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentFromDateFilter.cs",
+              "RelativeDocumentMoniker": "src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentFromDateFilter.cs",
+              "ToolTip": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentFromDateFilter.cs",
+              "RelativeToolTip": "src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentFromDateFilter.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBEAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T18:55:49.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaymentToDateFilter.cs",
+              "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentToDateFilter.cs",
+              "RelativeDocumentMoniker": "src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentToDateFilter.cs",
+              "ToolTip": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentToDateFilter.cs",
+              "RelativeToolTip": "src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentToDateFilter.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T18:55:59.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPaymentQuery.cs",
+              "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\Interfaces\\IPaymentQuery.cs",
+              "RelativeDocumentMoniker": "src\\PaymentApi.Application\\Interfaces\\IPaymentQuery.cs",
+              "ToolTip": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\Interfaces\\IPaymentQuery.cs",
+              "RelativeToolTip": "src\\PaymentApi.Application\\Interfaces\\IPaymentQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T19:33:32.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "PaymentMethodFilter.cs",
               "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentMethodFilter.cs",
               "RelativeDocumentMoniker": "src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentMethodFilter.cs",
@@ -211,12 +218,11 @@
               "RelativeToolTip": "src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentMethodFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T18:54:50.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T18:54:50.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Payment.cs",
               "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Domain\\Entities\\Payment.cs",
               "RelativeDocumentMoniker": "src\\PaymentApi.Domain\\Entities\\Payment.cs",
@@ -224,12 +230,11 @@
               "RelativeToolTip": "src\\PaymentApi.Domain\\Entities\\Payment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T20:20:04.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T20:20:04.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PaymentRequest.cs",
               "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\DTOs\\Request\\PaymentRequest.cs",
               "RelativeDocumentMoniker": "src\\PaymentApi.Application\\DTOs\\Request\\PaymentRequest.cs",
@@ -237,12 +242,11 @@
               "RelativeToolTip": "src\\PaymentApi.Application\\DTOs\\Request\\PaymentRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T19:06:37.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T19:06:37.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IQueryFilter.cs",
               "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\Interfaces\\IQueryFilter.cs",
               "RelativeDocumentMoniker": "src\\PaymentApi.Application\\Interfaces\\IQueryFilter.cs",
@@ -250,12 +254,11 @@
               "RelativeToolTip": "src\\PaymentApi.Application\\Interfaces\\IQueryFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T18:47:56.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T18:47:56.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PaymentTrainerFilter.cs",
               "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentTrainerFilter.cs",
               "RelativeDocumentMoniker": "src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentTrainerFilter.cs",
@@ -263,12 +266,11 @@
               "RelativeToolTip": "src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentTrainerFilter.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAwBEAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T18:52:45.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T18:52:45.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "PaymentStatusFilter.cs",
               "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentStatusFilter.cs",
               "RelativeDocumentMoniker": "src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentStatusFilter.cs",
@@ -276,12 +278,11 @@
               "RelativeToolTip": "src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentStatusFilter.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAkwBEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T18:55:03.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T18:55:03.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "PaymentStudentFilter.cs",
               "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentStudentFilter.cs",
               "RelativeDocumentMoniker": "src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentStudentFilter.cs",
@@ -289,21 +290,7 @@
               "RelativeToolTip": "src\\PaymentApi.Application\\QueryFilters\\PaymentFilters\\PaymentStudentFilter.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAwBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T18:51:57.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PaymentCommand.cs",
-              "DocumentMoniker": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Infrastructure\\Commands\\PaymentCommand.cs",
-              "RelativeDocumentMoniker": "src\\PaymentApi.Infrastructure\\Commands\\PaymentCommand.cs",
-              "ToolTip": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Infrastructure\\Commands\\PaymentCommand.cs",
-              "RelativeToolTip": "src\\PaymentApi.Infrastructure\\Commands\\PaymentCommand.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T19:33:52.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T18:51:57.745Z"
             },
             {
               "$type": "Document",

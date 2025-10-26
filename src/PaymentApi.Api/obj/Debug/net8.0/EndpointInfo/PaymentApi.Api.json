@@ -118,7 +118,7 @@
       }
     },
     "/api/payment/confirm/{id}": {
-      "post": {
+      "put": {
         "tags": [
           "Payment"
         ],

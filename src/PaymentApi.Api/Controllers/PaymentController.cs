@@ -34,7 +34,7 @@ namespace PaymentApi.Api.Controllers
             return Ok(response);
         }
 
-        [HttpPost]
+        [HttpPut]
         [Route("confirm/{id}")]
         public async Task<IActionResult> ConfirmPayment([FromRoute] Guid id, [FromQuery] int days)
         {

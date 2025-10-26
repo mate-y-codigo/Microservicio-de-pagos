@@ -76,7 +76,7 @@
     "ContainingType": "PaymentApi.Api.Controllers.PaymentController",
     "Method": "ConfirmPayment",
     "RelativePath": "api/payment/confirm/{id}",
-    "HttpMethod": "POST",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
