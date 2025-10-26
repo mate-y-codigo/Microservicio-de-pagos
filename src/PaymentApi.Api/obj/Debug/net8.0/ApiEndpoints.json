@@ -86,7 +86,7 @@
         "IsRequired": true
       },
       {
-        "Name": "days",
+        "Name": "dias",
         "Type": "System.Int32",
         "IsRequired": false
       }

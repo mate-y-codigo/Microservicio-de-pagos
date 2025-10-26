@@ -133,7 +133,7 @@
             }
           },
           {
-            "name": "days",
+            "name": "dias",
             "in": "query",
             "schema": {
               "type": "integer",
