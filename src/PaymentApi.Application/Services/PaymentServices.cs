@@ -45,7 +45,10 @@ namespace PaymentApi.Application.Services
                 Metodo = createdPayment.Metodo,
                 Estado = createdPayment.Estado,
                 Notas = createdPayment.Notas,
-                Creado_En = createdPayment.Creado_En
+                Creado_En = createdPayment.Creado_En,
+                Pagado_El = createdPayment.Pagado_El,
+                Cobertura_Inicio = createdPayment.Cobertura_Inicio,
+                Cobertura_Fin = createdPayment.Cobertura_Fin
             };
         }
 
@@ -77,7 +80,10 @@ namespace PaymentApi.Application.Services
                 Metodo = p.Metodo,
                 Estado = p.Estado,
                 Notas = p.Notas,
-                Creado_En = p.Creado_En
+                Creado_En = p.Creado_En,
+                Pagado_El = p.Pagado_El,
+                Cobertura_Inicio = p.Cobertura_Inicio,
+                Cobertura_Fin = p.Cobertura_Fin
             }).ToList();
         }
 
@@ -94,8 +100,35 @@ namespace PaymentApi.Application.Services
                 Metodo = payment.Metodo,
                 Estado = payment.Estado,
                 Notas = payment.Notas,
-                Creado_En = payment.Creado_En
+                Creado_En = payment.Creado_En,
+                Pagado_El = payment.Pagado_El,
+                Cobertura_Inicio = payment.Cobertura_Inicio,
+                Cobertura_Fin = payment.Cobertura_Fin
             };
+        }
+
+        public async Task<PaymentValidateCoverage> ValidateCoverage(Guid student_id)
+        {
+            var payment = await _paymentQuery.GetPaymentValidateCoverage(student_id);
+            if (payment != null)
+            {
+                return new PaymentValidateCoverage
+                {
+                    EstaCubierto = true,
+                    DiasRestantes = payment.Cobertura_Fin.HasValue? Math.Max(0, (payment.Cobertura_Fin.Value.Date - DateTime.UtcNow.Date).Days): 0,
+                    FechaExpiracion = payment.Cobertura_Fin
+                };
+            }
+            else
+            {
+                return new PaymentValidateCoverage
+                {
+                    EstaCubierto = false,
+                    DiasRestantes = null,
+                    FechaExpiracion = null,
+                };
+
+            }
         }
     }
 }

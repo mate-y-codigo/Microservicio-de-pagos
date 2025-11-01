@@ -76,7 +76,7 @@
     "ContainingType": "PaymentApi.Api.Controllers.PaymentController",
     "Method": "ConfirmPayment",
     "RelativePath": "api/payment/confirm/{id}",
-    "HttpMethod": "PUT",
+    "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -89,6 +89,22 @@
         "Name": "dias",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaymentApi.Api.Controllers.PaymentController",
+    "Method": "ValidateCoverage",
+    "RelativePath": "api/payment/Validate/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

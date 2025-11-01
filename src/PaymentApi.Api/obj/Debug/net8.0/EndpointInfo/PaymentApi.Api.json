@@ -118,7 +118,7 @@
       }
     },
     "/api/payment/confirm/{id}": {
-      "put": {
+      "patch": {
         "tags": [
           "Payment"
         ],
@@ -138,6 +138,29 @@
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/payment/Validate/{id}": {
+      "get": {
+        "tags": [
+          "Payment"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
             }
           }
         ],

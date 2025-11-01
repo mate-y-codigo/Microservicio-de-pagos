@@ -27,7 +27,7 @@ namespace PaymentApi.Infrastructure.Commands
             payment.Pagado_El = DateTime.UtcNow;
             var now = DateTime.UtcNow.Date;
             payment.Cobertura_Inicio = now;
-            payment.Cobertura_Fin = now.AddDays(days);
+            payment.Cobertura_Fin = now.AddDays(days).AddHours(23).AddMinutes(59).AddSeconds(59);
             await _context.SaveChangesAsync();
         }
     }

@@ -34,11 +34,18 @@ namespace PaymentApi.Api.Controllers
             return Ok(response);
         }
 
-        [HttpPut]
+        [HttpPatch]
         [Route("confirm/{id}")]
         public async Task<IActionResult> ConfirmPayment([FromRoute] Guid id, [FromQuery] int dias)
         {
             var response = await _paymentServices.ConfirmPayment(id, dias);
+            return Ok(response);
+        }
+        [HttpGet]
+        [Route("Validate/{id}")]
+        public async Task<IActionResult> ValidateCoverage([FromRoute] Guid id)
+        {
+            var response = await _paymentServices.ValidateCoverage(id);
             return Ok(response);
         }
     }

@@ -10,6 +10,7 @@ namespace PaymentApi.Application.Interfaces
 {
     public interface IPaymentQuery
     {
+        Task<Payment> GetPaymentValidateCoverage(Guid student_id);
         Task<Payment> GetPayment(Guid id);
         Task<List<Payment>> FilterPayments(PaymentFilterRequest request);
     }

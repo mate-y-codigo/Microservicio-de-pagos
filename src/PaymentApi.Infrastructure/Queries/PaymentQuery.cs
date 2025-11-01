@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal;
 using PaymentApi.Application.DTOs.Request;
 using PaymentApi.Application.Interfaces;
 using PaymentApi.Application.QueryFilters.PaymentFilters;
@@ -42,6 +43,18 @@ namespace PaymentApi.Infrastructure.Queries
                 query = filter.Aplly(query, request);
             }
             return await query.ToListAsync();
+        }
+
+        public async Task<Payment> GetPaymentValidateCoverage(Guid student_id)
+        {
+            var timenow = DateTime.UtcNow.Date;
+            var payment = await _context.Payments
+                .FirstOrDefaultAsync(p =>
+                    p.Cobertura_Inicio <= timenow &&
+                    p.Cobertura_Fin >= timenow &&
+                    p.Alumno_Id == student_id);
+            return payment;
+
         }
     }
 }

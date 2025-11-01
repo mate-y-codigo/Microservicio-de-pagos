@@ -17,5 +17,8 @@ namespace PaymentApi.Application.DTOs.Response
         public string? Estado { get; set; }
         public string? Notas { get; set; }
         public DateTime Creado_En { get; set; }
+        public DateTime? Pagado_El { get; set; }
+        public DateTime? Cobertura_Inicio { get; set; }
+        public DateTime? Cobertura_Fin { get; set; }
     }
 }

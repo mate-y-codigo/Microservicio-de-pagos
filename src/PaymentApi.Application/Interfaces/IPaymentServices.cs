@@ -14,5 +14,6 @@ namespace PaymentApi.Application.Interfaces
         Task<PaymentSuccessResponse> ConfirmPayment(Guid id, int days);
         Task<List<PaymentResponse>> GetFilterPayments(PaymentFilterRequest request);
         Task<PaymentResponse> GetPayment(Guid id);
+        Task<PaymentValidateCoverage> ValidateCoverage(Guid student_id);
     }
 }

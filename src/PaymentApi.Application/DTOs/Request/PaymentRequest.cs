@@ -13,6 +13,7 @@ namespace PaymentApi.Application.DTOs.Request
         public decimal Monto { get; set; }
         public required string Moneda { get; set; }
         public required string Metodo { get; set; }
+
         public string? Notas { get; set; }
     }
 }
