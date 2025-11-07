@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using PaymentApi.Application.CustomExceptions;
 using PaymentApi.Application.DTOs.Request;
+using PaymentApi.Application.DTOs.Response;
 using PaymentApi.Application.Interfaces;
 
 namespace PaymentApi.Api.Controllers
@@ -15,17 +18,32 @@ namespace PaymentApi.Api.Controllers
             _paymentServices = paymentServices;
         }
         [HttpPost]
+        [ProducesResponseType(typeof(PaymentResponse), StatusCodes.Status201Created)]
         public async Task<IActionResult> CreatePayment([FromBody] PaymentRequest request)
         {
-            var response = await _paymentServices.CreatePayment(request);
-            return Ok(response);
+            var result = await _paymentServices.CreatePayment(request);
+            return new JsonResult(result) { StatusCode = 201 };
         }
         [HttpGet]
         [Route("{id}")]
+        [ProducesResponseType(typeof(PaymentResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiError), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ApiError), StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetPayment([FromRoute] Guid id)
         {
-            var response = await _paymentServices.GetPayment(id);
-            return Ok(response);
+            try
+            {
+                var result = await _paymentServices.GetPayment(id);
+                return new JsonResult(result) { StatusCode = 200 };
+            }
+            catch (BadRequestException ex)
+            {
+                return BadRequest(new ApiError { Message = ex.Message });
+            }
+            catch (NotFoundException ex)
+            {
+                return NotFound(new ApiError { Message = ex.Message });
+            }
         }
         [HttpGet]
         public async Task<IActionResult> FilterPayments([FromQuery] PaymentFilterRequest request)
@@ -36,17 +54,40 @@ namespace PaymentApi.Api.Controllers
 
         [HttpPatch]
         [Route("confirm/{id}")]
+        [ProducesResponseType(typeof(PaymentSuccessResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiError), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ApiError), StatusCodes.Status404NotFound)]
         public async Task<IActionResult> ConfirmPayment([FromRoute] Guid id, [FromQuery] int dias)
         {
-            var response = await _paymentServices.ConfirmPayment(id, dias);
-            return Ok(response);
+            try 
+            { 
+                var result = await _paymentServices.ConfirmPayment(id, dias);
+                return new JsonResult(result) { StatusCode = 200 };
+            }
+            catch (BadRequestException ex)
+            {
+                return BadRequest(new ApiError { Message = ex.Message });
+            }
+            catch (NotFoundException ex)
+            {
+                return NotFound(new ApiError { Message = ex.Message });
+            }
         }
         [HttpGet]
         [Route("Validate/{id}")]
+        [ProducesResponseType(typeof(PaymentSuccessResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiError), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> ValidateCoverage([FromRoute] Guid id)
         {
-            var response = await _paymentServices.ValidateCoverage(id);
-            return Ok(response);
+            try
+            {
+                var result = await _paymentServices.ValidateCoverage(id);
+                return new JsonResult(result) { StatusCode = 200 };
+            }
+            catch (BadRequestException ex)
+            {
+                return BadRequest(new ApiError { Message = ex.Message });
+            }
         }
     }
 }

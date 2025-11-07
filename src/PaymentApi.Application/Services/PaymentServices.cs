@@ -1,4 +1,5 @@
-﻿using PaymentApi.Application.DTOs.Request;
+﻿using PaymentApi.Application.CustomExceptions;
+using PaymentApi.Application.DTOs.Request;
 using PaymentApi.Application.DTOs.Response;
 using PaymentApi.Application.Interfaces;
 using PaymentApi.Domain.Entities;
@@ -54,7 +55,11 @@ namespace PaymentApi.Application.Services
 
         public async Task<PaymentSuccessResponse> ConfirmPayment(Guid id, int days)
         {
+            if(days < 0)
+                throw new BadRequestException("Los días deben ser un número positivo");
             var payment = _paymentQuery.GetPayment(id);
+            if(payment == null)
+                throw new NotFoundException("Pago no encontrado");
             await _paymentCommand.ConfirmPayment(await payment, days);
             var paymentConfirmed = await _paymentQuery.GetPayment(id);
             return new PaymentSuccessResponse
@@ -89,7 +94,11 @@ namespace PaymentApi.Application.Services
 
         public async Task<PaymentResponse> GetPayment(Guid id)
         {
+            if (id == null)
+                throw new BadRequestException("Inserte un id");
             var payment = await _paymentQuery.GetPayment(id);
+            if(payment == null)
+                throw new NotFoundException("Pago no encontrado");
             return new PaymentResponse
             {
                 Id = payment.Id,
@@ -109,6 +118,8 @@ namespace PaymentApi.Application.Services
 
         public async Task<PaymentValidateCoverage> ValidateCoverage(Guid student_id)
         {
+            if (student_id == null)
+                throw new BadRequestException("Inserte un id");
             var payment = await _paymentQuery.GetPaymentValidateCoverage(student_id);
             if (payment != null)
             {
