@@ -30,5 +30,11 @@ namespace PaymentApi.Infrastructure.Commands
             payment.Cobertura_Fin = now.AddDays(days).AddHours(23).AddMinutes(59).AddSeconds(59);
             await _context.SaveChangesAsync();
         }
+
+        public async Task DeclinePayment(Payment payment)
+        {
+            payment.Estado = "Rechazado";
+            await _context.SaveChangesAsync();
+        }
     }
 }

@@ -11,5 +11,6 @@ namespace PaymentApi.Application.Interfaces
     {
         Task CreatePayment(Payment payment);
         Task ConfirmPayment(Payment payment, int days);
+        Task DeclinePayment(Payment payment);
     }
 }

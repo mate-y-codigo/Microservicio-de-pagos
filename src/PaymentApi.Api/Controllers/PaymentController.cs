@@ -59,8 +59,8 @@ namespace PaymentApi.Api.Controllers
         [ProducesResponseType(typeof(ApiError), StatusCodes.Status404NotFound)]
         public async Task<IActionResult> ConfirmPayment([FromRoute] Guid id, [FromQuery] int dias)
         {
-            try 
-            { 
+            try
+            {
                 var result = await _paymentServices.ConfirmPayment(id, dias);
                 return new JsonResult(result) { StatusCode = 200 };
             }
@@ -82,6 +82,22 @@ namespace PaymentApi.Api.Controllers
             try
             {
                 var result = await _paymentServices.ValidateCoverage(id);
+                return new JsonResult(result) { StatusCode = 200 };
+            }
+            catch (BadRequestException ex)
+            {
+                return BadRequest(new ApiError { Message = ex.Message });
+            }
+        }
+        [HttpPatch]
+        [Route("Decline/{id}")]
+        [ProducesResponseType(typeof(PaymentSuccessResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiError), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> DeclinePayment([FromRoute] Guid id)
+        {
+            try
+            {
+                var result = await _paymentServices.DeclinePayment(id);
                 return new JsonResult(result) { StatusCode = 200 };
             }
             catch (BadRequestException ex)

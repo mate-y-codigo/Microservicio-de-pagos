@@ -116,14 +116,14 @@ namespace PaymentApi.Application.Services
             };
         }
 
-        public async Task<PaymentValidateCoverage> ValidateCoverage(Guid student_id)
+        public async Task<PaymentValidateCoverageResponse> ValidateCoverage(Guid student_id)
         {
             if (student_id == null)
                 throw new BadRequestException("Inserte un id");
             var payment = await _paymentQuery.GetPaymentValidateCoverage(student_id);
             if (payment != null)
             {
-                return new PaymentValidateCoverage
+                return new PaymentValidateCoverageResponse
                 {
                     EstaCubierto = true,
                     DiasRestantes = payment.Cobertura_Fin.HasValue? Math.Max(0, (payment.Cobertura_Fin.Value.Date - DateTime.UtcNow.Date).Days): 0,
@@ -132,7 +132,7 @@ namespace PaymentApi.Application.Services
             }
             else
             {
-                return new PaymentValidateCoverage
+                return new PaymentValidateCoverageResponse
                 {
                     EstaCubierto = false,
                     DiasRestantes = null,
@@ -141,5 +141,19 @@ namespace PaymentApi.Application.Services
 
             }
         }
+
+        public async Task<PaymentDeclineResponse> DeclinePayment(Guid id)
+        {
+            if(id == null)
+                throw new BadRequestException("Inserte un id");
+            var payment = await _paymentQuery.GetPayment(id);
+            await _paymentCommand.DeclinePayment(payment);
+            var declinePayment = await _paymentQuery.GetPayment(id);
+            return new PaymentDeclineResponse
+            {
+                Estado = declinePayment.Estado,
+            };
+        }
+
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PaymentApi.Application.DTOs.Response
 {
-    public class PaymentValidateCoverage
+    public class PaymentValidateCoverageResponse
     {
         public bool EstaCubierto { get; set; }
         public int? DiasRestantes { get; set; }
