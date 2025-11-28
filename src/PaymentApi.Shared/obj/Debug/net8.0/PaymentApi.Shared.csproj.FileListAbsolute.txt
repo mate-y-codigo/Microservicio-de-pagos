@@ -9,3 +9,15 @@ D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\Paymen
 D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Shared\obj\Debug\net8.0\refint\PaymentApi.Shared.dll
 D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Shared\obj\Debug\net8.0\PaymentApi.Shared.pdb
 D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Shared\obj\Debug\net8.0\ref\PaymentApi.Shared.dll
+D:\_UNAJ\Materias\Proyecto Software\Proyecto Final\Microservicio-de-pagos\src\PaymentApi.Shared\bin\Debug\net8.0\PaymentApi.Shared.deps.json
+D:\_UNAJ\Materias\Proyecto Software\Proyecto Final\Microservicio-de-pagos\src\PaymentApi.Shared\bin\Debug\net8.0\PaymentApi.Shared.dll
+D:\_UNAJ\Materias\Proyecto Software\Proyecto Final\Microservicio-de-pagos\src\PaymentApi.Shared\bin\Debug\net8.0\PaymentApi.Shared.pdb
+D:\_UNAJ\Materias\Proyecto Software\Proyecto Final\Microservicio-de-pagos\src\PaymentApi.Shared\obj\Debug\net8.0\PaymentApi.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\_UNAJ\Materias\Proyecto Software\Proyecto Final\Microservicio-de-pagos\src\PaymentApi.Shared\obj\Debug\net8.0\PaymentApi.Shared.AssemblyInfoInputs.cache
+D:\_UNAJ\Materias\Proyecto Software\Proyecto Final\Microservicio-de-pagos\src\PaymentApi.Shared\obj\Debug\net8.0\PaymentApi.Shared.AssemblyInfo.cs
+D:\_UNAJ\Materias\Proyecto Software\Proyecto Final\Microservicio-de-pagos\src\PaymentApi.Shared\obj\Debug\net8.0\PaymentApi.Shared.csproj.CoreCompileInputs.cache
+D:\_UNAJ\Materias\Proyecto Software\Proyecto Final\Microservicio-de-pagos\src\PaymentApi.Shared\obj\Debug\net8.0\PaymentApi.Shared.sourcelink.json
+D:\_UNAJ\Materias\Proyecto Software\Proyecto Final\Microservicio-de-pagos\src\PaymentApi.Shared\obj\Debug\net8.0\PaymentApi.Shared.dll
+D:\_UNAJ\Materias\Proyecto Software\Proyecto Final\Microservicio-de-pagos\src\PaymentApi.Shared\obj\Debug\net8.0\refint\PaymentApi.Shared.dll
+D:\_UNAJ\Materias\Proyecto Software\Proyecto Final\Microservicio-de-pagos\src\PaymentApi.Shared\obj\Debug\net8.0\PaymentApi.Shared.pdb
+D:\_UNAJ\Materias\Proyecto Software\Proyecto Final\Microservicio-de-pagos\src\PaymentApi.Shared\obj\Debug\net8.0\ref\PaymentApi.Shared.dll

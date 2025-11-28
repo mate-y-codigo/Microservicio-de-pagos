@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Shared\\PaymentApi.Shared.csproj": {}
+    "D:\\_UNAJ\\Materias\\Proyecto Software\\Proyecto Final\\Microservicio-de-pagos\\src\\PaymentApi.Shared\\PaymentApi.Shared.csproj": {}
   },
   "projects": {
-    "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Shared\\PaymentApi.Shared.csproj": {
+    "D:\\_UNAJ\\Materias\\Proyecto Software\\Proyecto Final\\Microservicio-de-pagos\\src\\PaymentApi.Shared\\PaymentApi.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Shared\\PaymentApi.Shared.csproj",
+        "projectUniqueName": "D:\\_UNAJ\\Materias\\Proyecto Software\\Proyecto Final\\Microservicio-de-pagos\\src\\PaymentApi.Shared\\PaymentApi.Shared.csproj",
         "projectName": "PaymentApi.Shared",
-        "projectPath": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Shared\\PaymentApi.Shared.csproj",
-        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-        "outputPath": "D:\\Universidad\\2025\\Proyecto Software\\Payment Api\\template\\PaymentApi\\src\\PaymentApi.Shared\\obj\\",
+        "projectPath": "D:\\_UNAJ\\Materias\\Proyecto Software\\Proyecto Final\\Microservicio-de-pagos\\src\\PaymentApi.Shared\\PaymentApi.Shared.csproj",
+        "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+        "outputPath": "D:\\_UNAJ\\Materias\\Proyecto Software\\Proyecto Final\\Microservicio-de-pagos\\src\\PaymentApi.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
