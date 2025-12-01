@@ -417,5 +417,5 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
-src/ConfigRutina.Api/appsettings.json
-src/ConfigRutina.Api/appsettings.Development.json
+src/PaymentApi.Api/appsettings.json
+src/PaymentApi.Api/appsettings.Development.json
