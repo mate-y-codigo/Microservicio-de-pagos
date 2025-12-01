@@ -92,6 +92,28 @@ namespace PaymentApi.Application.Services
             }).ToList();
         }
 
+        public async Task<PaymentResponse> GetStudentLastPayment(Guid id)
+        {
+            var payment = await _paymentQuery.GetStudentLastPayment(id);
+            if (payment == null)
+                throw new NotFoundException("Estudiante no encontrado");
+            return new PaymentResponse
+            {
+                Id = payment.Id,
+                Alumno_Id = payment.Alumno_Id,
+                Entrenador_Id = payment.Entrenador_Id,
+                Monto = payment.Monto,
+                Moneda = payment.Moneda,
+                Metodo = payment.Metodo,
+                Estado = payment.Estado,
+                Notas = payment.Notas,
+                Creado_En = payment.Creado_En,
+                Pagado_El = payment.Pagado_El,
+                Cobertura_Inicio = payment.Cobertura_Inicio,
+                Cobertura_Fin = payment.Cobertura_Fin
+            };
+        }
+
         public async Task<PaymentResponse> GetPayment(Guid id)
         {
             if (id == null)

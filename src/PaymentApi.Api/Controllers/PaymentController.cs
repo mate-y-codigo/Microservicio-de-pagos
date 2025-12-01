@@ -52,6 +52,28 @@ namespace PaymentApi.Api.Controllers
             return Ok(response);
         }
 
+        [HttpGet]
+        [Route("student/{id}")]
+        [ProducesResponseType(typeof(PaymentResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiError), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ApiError), StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> StudentLastPayment([FromRoute] Guid id)
+        {            
+            try
+            {
+                var response = await _paymentServices.GetStudentLastPayment(id);
+                return new JsonResult(response) { StatusCode = 200 };
+            }
+            catch (BadRequestException ex)
+            {
+                return BadRequest(new ApiError { Message = ex.Message });
+            }
+            catch (NotFoundException ex)
+            {
+                return NotFound(new ApiError { Message = ex.Message });
+            }
+        }
+
         [HttpPatch]
         [Route("confirm/{id}")]
         [ProducesResponseType(typeof(PaymentSuccessResponse), StatusCodes.Status200OK)]

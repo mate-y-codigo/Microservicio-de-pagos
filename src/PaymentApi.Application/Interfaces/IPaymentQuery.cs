@@ -12,6 +12,7 @@ namespace PaymentApi.Application.Interfaces
     {
         Task<Payment> GetPaymentValidateCoverage(Guid student_id);
         Task<Payment> GetPayment(Guid id);
+        Task<Payment> GetStudentLastPayment(Guid id);
         Task<List<Payment>> FilterPayments(PaymentFilterRequest request);
     }
 }

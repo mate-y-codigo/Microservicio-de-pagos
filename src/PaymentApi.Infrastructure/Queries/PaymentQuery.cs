@@ -26,6 +26,18 @@ namespace PaymentApi.Infrastructure.Queries
             var payment = await _context.Payments.FirstOrDefaultAsync(p => p.Id == id);
             return payment;
         }
+
+        public async Task<Payment> GetStudentLastPayment(Guid id)
+        {
+            //var payment = await _context.Payments.FirstOrDefaultAsync(p => p.Alumno_Id == id);
+            var payment = await _context.Payments
+                .Where(p => p.Alumno_Id == id)
+                .OrderByDescending(p => p.Pagado_El)
+                .FirstOrDefaultAsync();
+
+            return payment;
+        }
+
         public async Task<List<Payment>> FilterPayments(PaymentFilterRequest request)
         {
             var filters = new List<IQueryFilter<Payment, PaymentFilterRequest>>

@@ -119,8 +119,8 @@ D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\Paymen
 D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Api\obj\Debug\net8.0\PaymentApi.Api.genruntimeconfig.cache
 D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Api\obj\Debug\net8.0\ref\PaymentApi.Api.dll
 D:\Universidad\2025\Proyecto Software\Payment Api\template\PaymentApi\src\PaymentApi.Api\obj\Debug\net8.0\PaymentApi.Api.sourcelink.json
-D:\_UNAJ\Materias\Proyecto Software\Proyecto Final\Microservicio-de-pagos\src\PaymentApi.Api\bin\Debug\net8.0\appsettings.json
 D:\_UNAJ\Materias\Proyecto Software\Proyecto Final\Microservicio-de-pagos\src\PaymentApi.Api\bin\Debug\net8.0\appsettings.Development.json
+D:\_UNAJ\Materias\Proyecto Software\Proyecto Final\Microservicio-de-pagos\src\PaymentApi.Api\bin\Debug\net8.0\appsettings.json
 D:\_UNAJ\Materias\Proyecto Software\Proyecto Final\Microservicio-de-pagos\src\PaymentApi.Api\bin\Debug\net8.0\PaymentApi.Api.staticwebassets.endpoints.json
 D:\_UNAJ\Materias\Proyecto Software\Proyecto Final\Microservicio-de-pagos\src\PaymentApi.Api\bin\Debug\net8.0\PaymentApi.Api.exe
 D:\_UNAJ\Materias\Proyecto Software\Proyecto Final\Microservicio-de-pagos\src\PaymentApi.Api\bin\Debug\net8.0\PaymentApi.Api.deps.json

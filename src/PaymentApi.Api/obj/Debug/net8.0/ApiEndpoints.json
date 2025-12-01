@@ -196,6 +196,50 @@
   },
   {
     "ContainingType": "PaymentApi.Api.Controllers.PaymentController",
+    "Method": "StudentLastPayment",
+    "RelativePath": "api/payment/student/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PaymentApi.Application.DTOs.Response.PaymentResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "PaymentApi.Application.CustomExceptions.ApiError",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "PaymentApi.Application.CustomExceptions.ApiError",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "PaymentApi.Api.Controllers.PaymentController",
     "Method": "ValidateCoverage",
     "RelativePath": "api/payment/Validate/{id}",
     "HttpMethod": "GET",
